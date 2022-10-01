@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    tools:context=".FLOODVICTIM.ViewDetailNGO4">
+
+    <TextView
+        android:id="@+id/detailngo4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="VIEW DETAIL NGO"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/logopic4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/pic4"
+        app:layout_constraintTop_toBottomOf="@id/detailngo4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginStart="50dp"/>
+
+    <TextView
+        android:id="@+id/vdname4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/logopic4"
+        app:layout_constraintTop_toBottomOf="@id/detailngo4"
+        android:layout_marginStart="10dp"
+        android:text="The Hope Branch"
+        android:layout_marginTop="40dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vdemail4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/logopic4"
+        app:layout_constraintTop_toBottomOf="@id/vdname4"
+        android:layout_marginStart="10dp"
+        android:text="thehopebranch@gmail.com"
+        android:layout_marginTop="1dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/vdphone4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/logopic4"
+        app:layout_constraintTop_toBottomOf="@id/vdemail4"
+        android:layout_marginStart="10dp"
+        android:text="+6019 – 709 3103"
+        android:layout_marginTop="1dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/vdadd4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/logopic4"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/vdphone4"
+        android:text="27, Block C5 Level G3, \nPublika Gallery, Solaris Dutamas, \n50480 Kuala Lumpur"
+        android:layout_marginTop="1dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/titlengo4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="VOLUNTEERS AND GROCERY AID"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vdadd4"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:id="@+id/type4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Type of donation provided"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="70dp"
+        app:layout_constraintTop_toBottomOf="@id/titlengo4"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:id="@+id/donation4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+        android:text="- Hygiene kits
+        \n\n- Cleaning appliances
+        \n\n- Food
+        \n\n- Medicines
+        \n\n- Clothes and blankets"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/type4" />
+
+    <Button
+        android:id="@+id/form4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="@color/blue"
+        android:text="REQUEST DONATION"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

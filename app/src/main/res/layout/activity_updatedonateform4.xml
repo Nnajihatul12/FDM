@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".FLOODVICTIM.UpdateDonateForm4">
+
+    <TextView
+        android:id="@+id/request4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="@font/bangers"
+        android:text="UPDATE REQUEST FORM"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/vdrd1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/request4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:text="Hygiene Kits"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/vdrd2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/vdrd1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Cleaning Appliances"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/vdrd3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/vdrd2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Food"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/vdrd4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/vdrd3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Medicine"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/vdrd5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/vdrd4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Clothes and Blankets"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <Button
+        android:id="@+id/signoutvdrd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SIGN OUT"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintTop_toBottomOf="@id/vdrd5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="200dp"/>
+
+    <Button
+        android:id="@+id/updatevdrd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintTop_toBottomOf="@id/vdrd5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginTop="200dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

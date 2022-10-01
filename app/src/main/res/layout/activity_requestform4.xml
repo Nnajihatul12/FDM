@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".FLOODVICTIM.Requestform4">
+
+    <TextView
+        android:id="@+id/request4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="DONATION REQUEST"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        android:fontFamily="@font/bangers"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"/>
+
+    <CheckBox
+        android:id="@+id/hygieneChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/request4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:text="Hygiene Kits"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/cleaningChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/hygieneChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Cleaning Appliances"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/foodChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cleaningChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Food"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/medicChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/foodChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Medicine"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/clothesChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/medicChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Clothes and Blankets"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <Button
+        android:id="@+id/submitdrd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintTop_toBottomOf="@id/clothesChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="200dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

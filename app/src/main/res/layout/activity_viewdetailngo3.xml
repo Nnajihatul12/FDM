@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    tools:context=".FLOODVICTIM.ViewDetailNGO3">
+
+    <TextView
+        android:id="@+id/detailngo3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="VIEW DETAIL NGO"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/logopic3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/pic3"
+        app:layout_constraintTop_toBottomOf="@id/detailngo3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginStart="50dp"/>
+
+    <TextView
+        android:id="@+id/vdname3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/logopic3"
+        app:layout_constraintTop_toBottomOf="@id/detailngo3"
+        android:layout_marginStart="10dp"
+        android:text="Malaysian Relief Agency"
+        android:layout_marginTop="40dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vdemail3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/logopic3"
+        app:layout_constraintTop_toBottomOf="@id/vdname3"
+        android:layout_marginStart="10dp"
+        android:text="admin@mra.my"
+        android:layout_marginTop="1dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/vdphone3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/logopic3"
+        app:layout_constraintTop_toBottomOf="@id/vdemail3"
+        android:layout_marginStart="10dp"
+        android:text="+603 - 9174 4672"
+        android:layout_marginTop="1dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/vdadd3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/logopic3"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/vdphone3"
+        android:text="C - 45 - 1 and C - 45 - 2, \nJalan Danau Lumayan, \nBandar Sri Permaisuri, \n56000 Cheras WP Kuala Lumpur"
+        android:layout_marginTop="1dp"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/titlengo3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="VOLUNTEERS AND FOOD AID"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vdadd3"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:id="@+id/type3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Type of donation provided"
+        android:fontFamily="@font/bangers"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="70dp"
+        app:layout_constraintTop_toBottomOf="@id/titlengo3"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:id="@+id/donation3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+        android:text="- Rice
+        \n\n- Milk powder
+        \n\n- Biscuits
+        \n\n- Candles and matches
+        \n\n- Diaper and pads"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/type3" />
+
+    <Button
+        android:id="@+id/form3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="REQUEST DONATION"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

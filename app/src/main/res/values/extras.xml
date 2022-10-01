@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_flood_victim_form1">key_flood_victim_form1</string>
+    <string name="key_flood_victim_form1_Healths_Aids">key_flood_victim_form1_Healths_Aids</string>
+
+    <string name="key_flood_victim_form2">key_flood_victim_form2</string>
+    <string name="key_flood_victim_form2_Monetary_Aids">key_flood_victim_form2_Monetary_Aids</string>
+
+    <string name="key_flood_victim_form3">key_flood_victim_form3</string>
+    <string name="key_flood_victim_form3_Food_Aids">key_flood_victim_form3_Food_Aids</string>
+
+    <string name="key_flood_victim_form4">key_flood_victim_form4</string>
+    <string name="key_flood_victim_form4_Grocery_Aids">key_flood_victim_form4_Grocery_Aids</string>
+</resources>

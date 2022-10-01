@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".NGO.AddListDonationType_NGO">
+
+    <TextView
+        android:id="@+id/organisationdetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="@font/bangers"
+        android:text="ORGANISATION DETAILS"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/ngoname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/organisationdetails"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:text="Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/ngoemail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ngoname" />
+
+    <TextView
+        android:id="@+id/ngophone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ngoemail"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:text="Phone number"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/ngoaddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ngophone"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:text="Address"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/ngoeditname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/organisationdetails"
+        app:layout_constraintStart_toEndOf="@id/ngoname"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/ngoeditemail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ngoeditname"
+        app:layout_constraintStart_toEndOf="@id/ngoemail"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/ngoeditphone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ngoeditemail"
+        app:layout_constraintStart_toEndOf="@id/ngophone"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="5dp"
+        android:inputType="phone"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/ngoeditaddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ngoeditphone"
+        app:layout_constraintStart_toEndOf="@id/ngoaddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="24dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/adddonation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="@font/bangers"
+        android:text="ADD DONATION"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ngoaddress"
+        android:layout_marginTop="39dp"/>
+
+    <TextView
+        android:id="@+id/donationprovider"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/adddonation"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:text="List of Donation"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/listdonation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/donationprovider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="150dp"
+        android:hint="- xxx \n\n- xxx \n\n- xxx"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginHorizontal="24dp"
+        android:ems="15"/>
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/listdonation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="45dp"
+        android:text="ADD"
+        android:backgroundTint="@color/blue"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

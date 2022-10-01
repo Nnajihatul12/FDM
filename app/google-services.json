@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "518049307841",
+    "project_id": "flooddonationmanagement",
+    "storage_bucket": "flooddonationmanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518049307841:android:66c309b53a0e4e38ab4840",
+        "android_client_info": {
+          "package_name": "com.example.fdm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518049307841-b99m0b1sspbpa2455dlpamevbce49r0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN85NrrcGWVC8AQL4dAFgxDeevgNWcr_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518049307841-b99m0b1sspbpa2455dlpamevbce49r0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".FLOODVICTIM.UserForm4">
+
+    <TextView
+        android:id="@+id/UserForm4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="USER FORM"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        android:fontFamily="@font/bangers"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"/>
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/UserForm4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="callback fullname in database"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="45dp"/>
+
+    <TextView
+        android:id="@+id/uphone4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fullname"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="PHONE NUMBER"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/ugender4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/uphone4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="GENDER"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/uage4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ugender4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="AGE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/uoccupation4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/uage4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="OCCUPATION"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/uincome4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/uoccupation4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="INCOME SALARY"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/uaddress4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/uincome4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="ADDRESS"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"/>
+
+    <EditText
+        android:id="@+id/phone4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="45dp"
+        android:inputType="phone"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/uphone4"
+        app:layout_constraintTop_toBottomOf="@id/fullname" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/phone4"
+        app:layout_constraintStart_toEndOf="@id/ugender4">
+
+        <RadioButton
+            android:id="@+id/gendermale4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Male"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/genderfemale4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            app:layout_constraintStart_toEndOf="@id/gendermale4"
+            app:layout_constraintTop_toBottomOf="@id/phone4"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/age4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/uage4"
+        app:layout_constraintTop_toBottomOf="@id/radiogroup"
+        android:layout_marginStart="104dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/yo4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/age4"
+        app:layout_constraintTop_toBottomOf="@id/radiogroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="45dp"
+        android:text="years old"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="7dp"/>
+
+    <EditText
+        android:id="@+id/occupation4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/uoccupation4"
+        app:layout_constraintTop_toBottomOf="@id/age4"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="45dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginEnd="45dp"
+        android:inputType="text"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/rm4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/uincome4"
+        app:layout_constraintTop_toBottomOf="@id/occupation4"
+        android:text="RM"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="22dp"/>
+
+    <EditText
+        android:id="@+id/income4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@id/rm4"
+        app:layout_constraintTop_toBottomOf="@id/occupation4"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="7dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/addressa4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@id/uaddress4"
+        app:layout_constraintTop_toBottomOf="@id/rm4"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="69dp"
+        android:padding="5dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/addressb4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@id/uaddress4"
+        app:layout_constraintTop_toBottomOf="@id/addressa4"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="69dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/postcode1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        app:layout_constraintStart_toEndOf="@id/uaddress4"
+        app:layout_constraintTop_toBottomOf="@id/addressb4"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="69dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/unext4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/postcode1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="230dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="180dp"
+        android:text="NEXT"
+        android:backgroundTint="@color/blue"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

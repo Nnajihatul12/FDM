@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".FLOODVICTIM.Requestform2">
+
+    <TextView
+        android:id="@+id/request2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="DONATION REQUEST"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        android:fontFamily="@font/bangers"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"/>
+
+    <CheckBox
+        android:id="@+id/houseCleaningChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/request2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:text="House cleaning"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/powerbankChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/houseCleaningChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Powerbank"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/foodWaterChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/powerbankChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Food and water"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/infrastructureChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/foodWaterChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Infrastructure Maintenance"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/cashChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/infrastructureChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Cash Assistance"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/electricalChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cashChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Electrical appliances"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <Button
+        android:id="@+id/submitdrb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintTop_toBottomOf="@id/electricalChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="125dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

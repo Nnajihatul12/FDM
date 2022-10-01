@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".FLOODVICTIM.Requestform1">
+
+    <TextView
+        android:id="@+id/request1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="DONATION REQUEST"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        android:fontFamily="@font/bangers"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"/>
+
+   <CheckBox
+       android:id="@+id/dryFoodChkbx"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toBottomOf="@id/request1"
+       app:layout_constraintStart_toStartOf="parent"
+       android:layout_marginStart="60dp"
+       android:layout_marginTop="50dp"
+       android:text="Dry Foods"
+       android:onClick="onCheckboxClicked"
+       android:fontFamily="sans-serif"
+       android:textColor="@color/black"
+       android:textSize="16sp">
+   </CheckBox>
+
+    <CheckBox
+        android:id="@+id/hygienceKitChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/dryFoodChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Hygiene Kits"
+        android:onClick="onCheckboxClicked"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/portableWaterChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/hygienceKitChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Portable Water"
+        android:onClick="onCheckboxClicked"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/medicineChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/portableWaterChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Medicines and First Aid Kit"
+        android:onClick="onCheckboxClicked"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/ambulanChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/medicineChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Ambulan Services"
+        android:onClick="onCheckboxClicked"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/blanketChkbx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ambulanChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Blankets"
+        android:onClick="onCheckboxClicked"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp">
+    </CheckBox>
+
+    <Button
+        android:id="@+id/submitdra"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintTop_toBottomOf="@id/blanketChkbx"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="125dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

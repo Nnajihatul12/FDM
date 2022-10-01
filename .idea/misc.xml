@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_addlistdonationtypengo.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_home_ngo.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_homengo.xml" value="0.1" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_household1.xml" value="0.25" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_household2.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_household3.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_household4.xml" value="0.1875" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_requestform1.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_requestform2.xml" value="0.253125" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_requestform3.xml" value="0.253125" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_requestform4.xml" value="0.2076923076923077" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_signin_fv.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_signin_ngo.xml" value="0.1" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_signup_fv.xml" value="0.1" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updatedonateform1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updatedonateform2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updatedonateform3.xml" value="0.253125" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updatedonateform4.xml" value="0.253125" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updatehouseholdform1.xml" value="0.253125" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updatehouseholdform2.xml" value="0.253125" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updatehouseholdform3.xml" value="0.253125" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updatehouseholdform4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updateuserform1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updateuserform2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updateuserform3.xml" value="0.253125" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_updateuserform4.xml" value="0.253125" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_userform.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_userform1.xml" value="0.23138297872340424" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_userform2.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_userform3.xml" value="0.2375" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_userform4.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo1.xml" value="0.10638297872340426" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo10.xml" value="0.2" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo11.xml" value="0.2" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo12.xml" value="0.2" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo13.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo14.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo15.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo16.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo2.xml" value="0.2288135593220339" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo3.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo4.xml" value="0.2" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo5.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo6.xml" value="0.16" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo7.xml" value="0.2" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo8.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdetailngo9.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdonate1.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdonate2.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdonate3.xml" value="0.25" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewdonate4.xml" value="0.25" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewfloodvictim_ngo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewfloodvictimngo.xml" value="0.25" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewfloodvictimngo_layout.xml" value="0.20427350427350427" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewform1.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewform2.xml" value="0.25" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewform3.xml" value="0.1875" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewform4.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewhousehold1.xml" value="0.25" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewhousehold2.xml" value="0.25" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewhousehold3.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewhousehold4.xml" value="0.25" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewlistngo1_fv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewlistngo2_fv.xml" value="0.2" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewlistngo_fv.xml" value="0.264" />
+        <entry key="..\:/Users/Najihatul/AndroidStudioProjects/FDM/app/src/main/res/layout/activity_viewlistngo_fv_layout.xml" value="0.1784776902887139" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

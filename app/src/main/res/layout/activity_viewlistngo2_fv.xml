@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg5"
+    tools:context=".FLOODVICTIM.ViewListNGOActivity2_FV">
+
+    <TextView
+        android:id="@+id/listngo2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="LIST OF NGO"
+        android:fontFamily="@font/bangers"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <ImageView
+        android:id="@+id/ngo9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/pic9"
+        app:layout_constraintTop_toBottomOf="@id/listngo2"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="42dp"/>
+
+    <ImageView
+        android:id="@+id/ngo10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/pic10"
+        app:layout_constraintTop_toBottomOf="@id/ngo9"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="42dp"/>
+
+    <ImageView
+        android:id="@+id/ngo11"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:background="@drawable/pic11"
+        app:layout_constraintTop_toBottomOf="@id/ngo10"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="42dp"/>
+
+    <ImageView
+        android:id="@+id/ngo12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/pic12"
+        app:layout_constraintTop_toBottomOf="@id/ngo11"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="42dp"/>
+
+    <ImageView
+        android:id="@+id/ngo13"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/pic13"
+        app:layout_constraintTop_toBottomOf="@id/ngo12"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="42dp"/>
+
+    <ImageView
+        android:id="@+id/ngo14"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/pic14"
+        app:layout_constraintTop_toBottomOf="@id/ngo13"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="42dp"/>
+
+    <ImageView
+        android:id="@+id/ngo15"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/pic15"
+        app:layout_constraintTop_toBottomOf="@id/ngo14"
+        android:layout_marginTop="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="42dp"/>
+
+    <ImageView
+        android:id="@+id/ngo16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/pic16"
+        app:layout_constraintTop_toBottomOf="@id/ngo15"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="42dp"/>
+
+    <TextView
+        android:id="@+id/namengo9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Yayasan Amal Malaysia"
+        app:layout_constraintStart_toEndOf="@+id/ngo9"
+        app:layout_constraintTop_toBottomOf="@+id/listngo2"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/emailngo9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="amalmalaysia.hq@gmail.com"
+        app:layout_constraintStart_toEndOf="@+id/ngo9"
+        app:layout_constraintTop_toBottomOf="@+id/namengo9"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/namengo10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="IMARET"
+        app:layout_constraintStart_toEndOf="@+id/ngo10"
+        app:layout_constraintTop_toBottomOf="@+id/emailngo9"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/emailngo10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="execsecppim@gmail.com"
+        app:layout_constraintStart_toEndOf="@+id/ngo10"
+        app:layout_constraintTop_toBottomOf="@+id/namengo10"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/namengo11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="myCARE"
+        app:layout_constraintStart_toEndOf="@+id/ngo11"
+        app:layout_constraintTop_toBottomOf="@+id/emailngo10"
+        android:layout_marginTop="38dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/emailngo11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="account@mycare.org.my"
+        app:layout_constraintStart_toEndOf="@+id/ngo11"
+        app:layout_constraintTop_toBottomOf="@+id/namengo11"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/namengo12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Global Peace Mission Malaysia"
+        app:layout_constraintStart_toEndOf="@+id/ngo12"
+        app:layout_constraintTop_toBottomOf="@+id/emailngo11"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/emailngo12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="salam@gpm.com.my"
+        app:layout_constraintStart_toEndOf="@+id/ngo12"
+        app:layout_constraintTop_toBottomOf="@+id/namengo12"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/namengo13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mercy Malaysia"
+        app:layout_constraintStart_toEndOf="@+id/ngo13"
+        app:layout_constraintTop_toBottomOf="@+id/emailngo12"
+        android:layout_marginTop="44dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/emailngo13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="vmd@mercy.org.my"
+        app:layout_constraintStart_toEndOf="@+id/ngo13"
+        app:layout_constraintTop_toBottomOf="@+id/namengo13"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/namengo14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SikhInside"
+        app:layout_constraintStart_toEndOf="@+id/ngo14"
+        app:layout_constraintTop_toBottomOf="@+id/emailngo13"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/emailngo14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="sikhinside@gmail.com"
+        app:layout_constraintStart_toEndOf="@+id/ngo14"
+        app:layout_constraintTop_toBottomOf="@+id/namengo14"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/namengo15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Kembara Kitchen"
+        app:layout_constraintStart_toEndOf="@+id/ngo15"
+        app:layout_constraintTop_toBottomOf="@+id/emailngo14"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/emailngo15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="yilynchan@sosprime.com"
+        app:layout_constraintStart_toEndOf="@+id/ngo15"
+        app:layout_constraintTop_toBottomOf="@+id/namengo15"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/namengo16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="WOMEN:GIRLS"
+        app:layout_constraintStart_toEndOf="@+id/ngo16"
+        app:layout_constraintTop_toBottomOf="@+id/emailngo15"
+        android:layout_marginTop="43dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/emailngo16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="writetous@womengirls.org"
+        app:layout_constraintStart_toEndOf="@+id/ngo16"
+        app:layout_constraintTop_toBottomOf="@+id/namengo16"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/vd9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/viewdetail"
+        app:layout_constraintTop_toBottomOf="@id/listngo2"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageView
+        android:id="@+id/vd10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/viewdetail"
+        app:layout_constraintTop_toBottomOf="@id/vd9"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageView
+        android:id="@+id/vd11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/viewdetail"
+        app:layout_constraintTop_toBottomOf="@id/vd10"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageView
+        android:id="@+id/vd12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/viewdetail"
+        app:layout_constraintTop_toBottomOf="@id/vd11"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageView
+        android:id="@+id/vd13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/viewdetail"
+        app:layout_constraintTop_toBottomOf="@id/vd12"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageView
+        android:id="@+id/vd14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/viewdetail"
+        app:layout_constraintTop_toBottomOf="@id/vd13"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageView
+        android:id="@+id/vd15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/viewdetail"
+        app:layout_constraintTop_toBottomOf="@id/vd14"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageView
+        android:id="@+id/vd16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/viewdetail"
+        app:layout_constraintTop_toBottomOf="@id/vd15"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="40dp"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintTop_toBottomOf="@id/vd16"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="35dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

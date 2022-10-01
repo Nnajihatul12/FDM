@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FDM</string>
+
+        <string-array name="postcode1">
+            <item>20000 Kuala Terengganu</item>
+            <item>20050 Kuala Terengganu</item>
+            <item>20100 Kuala Terengganu</item>
+            <item>20200 Kuala Terengganu</item>
+            <item>20300 Kuala Terengganu</item>
+            <item>20400 Kuala Terengganu</item>
+            <item>21010 Kuala Terengganu</item>
+            <item>21020 Kuala Terengganu</item>
+            <item>21030 Kuala Terengganu</item>
+            <item>21040 Kuala Terengganu</item>
+            <item>21060 Kuala Terengganu</item>
+            <item>21070 Kuala Terengganu</item>
+            <item>21080 Kuala Terengganu</item>
+            <item>21090 Kuala Terengganu</item>
+            <item>21100 Kuala Terengganu</item>
+            <item>21200 Kuala Terengganu</item>
+            <item>21210 Kuala Terengganu</item>
+            <item>21220 Kuala Terengganu</item>
+            <item>21300 Kuala Terengganu</item>
+            <item>21400 Bukit Payong</item>
+            <item>21450 Chalok</item>
+            <item>21500 Sungai Tong</item>
+            <item>21600 Marang</item>
+            <item>21610 Marang</item>
+            <item>21700 Kuala Berang</item>
+            <item>21800 Ajil</item>
+            <item>21810 Ajil</item>
+            <item>21820 Ajil</item>
+            <item>22000 Jerteh</item>
+            <item>22010 Jerteh</item>
+            <item>22020 Jerteh</item>
+            <item>22100 Permaisuri</item>
+            <item>22110 Permaisuri</item>
+            <item>22120 Permaisuri</item>
+            <item>22200 Kampung Raja</item>
+            <item>22300 Kuala Besut</item>
+            <item>23000 Dungun</item>
+            <item>23050 Dungun</item>
+            <item>23100 Paka</item>
+            <item>23200 Bukit Besi</item>
+            <item>23300 Ketengah Jaya</item>
+            <item>23400 Al Muktafi Billah Shah</item>
+            <item>24000 Cukai</item>
+        </string-array>
+
+
+
+</resources>

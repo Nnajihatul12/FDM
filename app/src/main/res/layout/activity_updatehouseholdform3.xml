@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".FLOODVICTIM.UpdateHouseholdForm3">
+
+    <TextView
+        android:id="@+id/household3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="@font/bangers"
+        android:text="UPDATE HOUSEHOLD FORM"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/ubaby3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Baby (Below 1 years old)"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/household3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/uchildren3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Children (Below 12 years old)"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/ubaby3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/uteenager3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Teenager (Below 18 years old)"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/uchildren3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/uadult3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Adult (Below 60 years old)"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/uteenager3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/uelderly3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Elderly (Above 60 years old)"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/uadult3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/udisable3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Disabled people"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/uelderly3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"/>
+
+    <EditText
+        android:id="@+id/editubaby3"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/ubaby3"
+        app:layout_constraintTop_toBottomOf="@id/household3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginStart="45dp"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/edituchildren3"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/uchildren3"
+        app:layout_constraintTop_toBottomOf="@id/editubaby3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginStart="17dp"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/edituteenager3"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/uteenager3"
+        app:layout_constraintTop_toBottomOf="@id/edituchildren3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginStart="10dp"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/edituadult3"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/uadult3"
+        app:layout_constraintTop_toBottomOf="@id/edituteenager3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginStart="36dp"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/edituelderly3"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/uelderly3"
+        app:layout_constraintTop_toBottomOf="@id/edituadult3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginStart="25dp"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/editudisable3"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@id/udisable3"
+        app:layout_constraintTop_toBottomOf="@id/edituelderly3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginStart="100dp"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:id="@+id/nexthousehold3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="@color/blue"
+        android:text="NEXT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editudisable3" />
+
+    <Button
+        android:id="@+id/updatehousehold3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="230dp"
+        android:backgroundTint="@color/blue"
+        android:text="SUBMIT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editudisable3" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="people"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/editubaby3"
+        app:layout_constraintTop_toBottomOf="@id/household3"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="people"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/edituchildren3"
+        app:layout_constraintTop_toBottomOf="@id/editubaby3"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="people"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/edituteenager3"
+        app:layout_constraintTop_toBottomOf="@id/edituchildren3"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="people"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/edituteenager3"
+        app:layout_constraintTop_toBottomOf="@id/edituchildren3"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="people"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/edituadult3"
+        app:layout_constraintTop_toBottomOf="@id/edituteenager3"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="people"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/edituelderly3"
+        app:layout_constraintTop_toBottomOf="@id/edituadult3"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="people"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/editudisable3"
+        app:layout_constraintTop_toBottomOf="@id/edituelderly3"
+        android:layout_marginTop="10dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

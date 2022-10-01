@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".FLOODVICTIM.ViewForm2">
+
+    <TextView
+        android:id="@+id/viewform2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="VIEW USER FORM"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAlignment="center"
+        android:fontFamily="@font/bangers"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"/>
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/viewform2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="CALLBACK FULLNAME FROM DATABASE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <TextView
+        android:id="@+id/edituphone2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fullname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="CALLBACK PHONE FROM DATABASE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <TextView
+        android:id="@+id/edituage2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edituphone2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="AGE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/years"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edituphone2"
+        app:layout_constraintStart_toEndOf="@id/edituage2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="years old"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:id="@+id/edituoccupation2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edituage2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="CALLBACK OCCUPATION FROM DATABASE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <TextView
+        android:id="@+id/ringgit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edituoccupation2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="RM "
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <TextView
+        android:id="@+id/edituincome2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edituoccupation2"
+        app:layout_constraintStart_toEndOf="@id/ringgit"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="CALLBACK INCOME SALARY FROM DATABASE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="60dp"/>
+
+    <TextView
+        android:id="@+id/edituadressa2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edituincome2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="CALLBACK ADDRESS 1 FROM DATABASE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <TextView
+        android:id="@+id/edituadressb2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edituadressa2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="CALLBACK ADDRESS 2 FROM DATABASE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <TextView
+        android:id="@+id/postcode1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edituadressb2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="CALLBACK POSTCODE FROM DATABASE"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"/>
+
+    <Button
+        android:id="@+id/unext2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/postcode1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="230dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="300dp"
+        android:text="NEXT"
+        android:backgroundTint="@color/blue"/>
+
+    <Button
+        android:id="@+id/update2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/postcode1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginTop="300dp"
+        android:text="UPDATE"
+        android:backgroundTint="@color/blue"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

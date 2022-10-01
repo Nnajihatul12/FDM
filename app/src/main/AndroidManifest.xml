@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fdm">
+
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FDM"
+        tools:targetApi="31">
+        <activity
+            android:name=".HOMEPAGE.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+ <activity android:name=".HOMEPAGE.HomeActivity"></activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".FLOODVICTIM.SignUpActivity_FV"></activity>
+        <activity android:name=".FLOODVICTIM.SignInActivity_FV"></activity>
+
+           <activity android:name=".FLOODVICTIM.ViewListNGOActivity1_FV"></activity>
+           <activity android:name=".FLOODVICTIM.ViewListNGOActivity2_FV"></activity>
+
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO1"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO2"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO3"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO4"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO5"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO6"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO7"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO8"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO9"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO10"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO11"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO12"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO13"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO14"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO15"></activity>
+              <activity android:name=".FLOODVICTIM.ViewDetailNGO16"></activity>
+
+                 <activity android:name=".FLOODVICTIM.UserForm1"></activity>
+                 <activity android:name=".FLOODVICTIM.UserForm2"></activity>
+                 <activity android:name=".FLOODVICTIM.UserForm3"></activity>
+                 <activity android:name=".FLOODVICTIM.UserForm4"></activity>
+
+                     <activity android:name=".FLOODVICTIM.HouseholdForm1"></activity>
+                     <activity android:name=".FLOODVICTIM.HouseholdForm2"></activity>
+                     <activity android:name=".FLOODVICTIM.HouseholdForm3"></activity>
+                     <activity android:name=".FLOODVICTIM.HouseholdForm4"></activity>
+
+                          <activity android:name=".FLOODVICTIM.Requestform1"></activity>
+                          <activity android:name=".FLOODVICTIM.Requestform2"></activity>
+                          <activity android:name=".FLOODVICTIM.Requestform3"></activity>
+                          <activity android:name=".FLOODVICTIM.Requestform4"></activity>
+
+                               <activity android:name=".FLOODVICTIM.ViewForm1"></activity>
+                               <activity android:name=".FLOODVICTIM.ViewForm2"></activity>
+                               <activity android:name=".FLOODVICTIM.ViewForm3"></activity>
+                               <activity android:name=".FLOODVICTIM.ViewForm4"></activity>
+
+                                    <activity android:name=".FLOODVICTIM.ViewHousehold1"></activity>
+                                    <activity android:name=".FLOODVICTIM.ViewHousehold2"></activity>
+                                    <activity android:name=".FLOODVICTIM.ViewHousehold3"></activity>
+                                    <activity android:name=".FLOODVICTIM.ViewHousehold4"></activity>
+
+                                        <activity android:name=".FLOODVICTIM.ViewDonate1"></activity>
+                                        <activity android:name=".FLOODVICTIM.ViewDonate2"></activity>
+                                        <activity android:name=".FLOODVICTIM.ViewDonate3"></activity>
+                                        <activity android:name=".FLOODVICTIM.ViewDonate4"></activity>
+
+        <activity android:name=".FLOODVICTIM.UpdateUserForm1"></activity>
+        <activity android:name=".FLOODVICTIM.UpdateUserForm2"></activity>
+        <activity android:name=".FLOODVICTIM.UpdateUserForm3"></activity>
+        <activity android:name=".FLOODVICTIM.UpdateUserForm4"></activity>
+
+        <activity android:name=".FLOODVICTIM.UpdateHouseholdForm1"></activity>
+        <activity android:name=".FLOODVICTIM.UpdateHouseholdForm2"></activity>
+        <activity android:name=".FLOODVICTIM.UpdateHouseholdForm3"></activity>
+        <activity android:name=".FLOODVICTIM.UpdateHouseholdForm4"></activity>
+
+        <activity android:name=".FLOODVICTIM.UpdateDonateForm1"></activity>
+        <activity android:name=".FLOODVICTIM.UpdateDonateForm2"></activity>
+        <activity android:name=".FLOODVICTIM.UpdateDonateForm3"></activity>
+        <activity android:name=".FLOODVICTIM.UpdateDonateForm4"></activity>
+
+
+        <activity android:name=".NGO.HomeActivity_NGO"></activity>
+        <activity android:name=".NGO.SignInActivity_NGO"></activity>
+        <activity android:name=".NGO.AddListDonationType_NGO"></activity>
+
+    </application>
+
+
+
+
+</manifest>
